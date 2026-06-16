@@ -99,6 +99,14 @@ Me chamo Diego Freitas Santiago, tenho 24 anos e sou natural de Recife, Pernambu
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
 />
 
+<img 
+    align="left" 
+    alt="Node.Js" 
+    title="Noje.Js"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://github.com/user-attachments/assets/7ae7a327-7be8-40b8-9387-4ce88731718a" />
+
 <br/>
 <br/>
 
