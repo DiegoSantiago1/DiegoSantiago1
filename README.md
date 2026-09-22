@@ -1,8 +1,8 @@
 # 🧑‍💻 Diego Santiago
 
-**`Desenvolvedor FullStack`**
+**`Dados · Backend · Automação`**
 
-Me chamo Diego Freitas Santiago, tenho 24 anos e sou natural de Recife, Pernambuco. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no Centro Universitário FBV Wyden. Tenho grande interesse pela área de tecnologia, especialmente no desenvolvimento web, e estou em constante aprendizado para aprimorar minhas habilidades e construir projetos que contribuam para minha evolução profissional.
+Me chamo Diego Freitas Santiago, tenho 25 anos e sou natural de Recife, Pernambuco. Curso Análise e Desenvolvimento de Sistemas no Centro Universitário FBV Wyden e trabalho como Analista Administrativo de Vendas numa concessionária Honda, onde uso dados de vendas no dia a dia. Estou migrando de uma base em desenvolvimento web (HTML, CSS, JS, Node) para Dados — SQL, Python, Power BI — mantendo backend e automação com IA como diferencial.
 <p>
     </a> 
     <a href="https://github.com/DiegoSantiago1?tab=repositories&sort=stargazers">
@@ -67,27 +67,35 @@ Me chamo Diego Freitas Santiago, tenho 24 anos e sou natural de Recife, Pernambu
 />
 <img 
     align="left" 
-    alt="Next.js" 
-    title="Next.js"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Bootstrap"
-    title="Bootstrap" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
-/>
-<img 
-    align="left" 
     alt="Tailwind" 
     title="Tailwind"
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Python"
+    title="Python" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="PostgreSQL"
+    title="PostgreSQL" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Docker"
+    title="Docker" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" 
 />
 
 <img 
