@@ -46,7 +46,9 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 
 ## Atividade
 
-<img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0F0B0B&border=2A1E1E&stroke=2A1E1E&ring=F97316&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FB923C&sideLabels=D1D5DB&dates=9CA3AF&border_radius=14" alt="Sequência de contribuições no GitHub" width="100%" />
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0F0B0B&border=2A1E1E&stroke=2A1E1E&ring=F97316&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FB923C&sideLabels=D1D5DB&dates=9CA3AF&border_radius=14" alt="Sequência de contribuições no GitHub" width="495" />
+</div>
 
 ## Próximos projetos
 
