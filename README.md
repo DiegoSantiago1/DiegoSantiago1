@@ -27,7 +27,7 @@ Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, Ty
 
 ## Projeto em destaque: Painel de Vendas Honda
 
-<a href="https://github.com/DiegoSantiago1/analise-vendas-concessionaria">
+<a href="https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/">
   <img src="https://raw.githubusercontent.com/DiegoSantiago1/analise-vendas-concessionaria/main/docs/screenshots/painel.png" alt="Painel de vendas com metas por loja, ranking de vendedores e calendário de vendas" width="100%" />
 </a>
 
@@ -42,7 +42,7 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 - **Painel:** filtro por loja, metas, ranking de vendedores, mix de modelos e calendário de vendas
 - **Detalhes que importam:** fuso horário tratado no banco e gerente derivado do vendedor, para evitar erro de cadastro
 
-[📂 Ver o repositório](https://github.com/DiegoSantiago1/analise-vendas-concessionaria) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+[▶ Abrir a demo online](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/analise-vendas-concessionaria) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade
 
