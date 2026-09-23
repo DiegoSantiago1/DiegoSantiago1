@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="t d">
+  <title id="t">Arquitetura do Painel de Vendas</title>
+  <desc id="d">Fluxo dos dados: script Python gera dados sintéticos, PostgreSQL em Docker armazena e agrega com SQL, API REST em Express com Node.js e TypeScript expõe os dados, e o painel em HTML, CSS e JavaScript com Chart.js exibe os gráficos.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0f"/><stop offset="1" stop-color="#1d0d0d"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <marker id="seta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#fb923c"/>
+    </marker>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .fluxo { stroke-dasharray: 7 6; animation: corre 1.1s linear infinite; }
+    @keyframes corre { to { stroke-dashoffset: -13; } }
+    .no { animation: in .7s ease-out both; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect width="1200" height="270" rx="18" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="269" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <text x="40" y="48" font-size="14" font-weight="700" letter-spacing="3" fill="#fb923c">DO DADO AO PAINEL</text>
+
+  <!-- contêiner Docker em volta do PostgreSQL -->
+  <rect x="312" y="70" width="290" height="174" rx="16" fill="none" stroke="#2496ed" stroke-opacity=".55" stroke-dasharray="5 5"/>
+  <text x="330" y="92" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#2496ed">DOCKER COMPOSE</text>
+
+  <!-- setas -->
+  <g stroke="#fb923c" stroke-width="2.6" fill="none" marker-end="url(#seta)">
+    <path class="fluxo" d="M262,168 L320,168"/>
+    <path class="fluxo" d="M594,168 L650,168"/>
+    <path class="fluxo" d="M896,168 L950,168"/>
+  </g>
+
+  <!-- 1 Python -->
+  <g class="no" style="animation-delay:.05s">
+    <rect x="40" y="108" width="222" height="120" rx="14" fill="#1c1917" stroke="#facc15" stroke-opacity=".5"/>
+    <rect x="58" y="108" width="186" height="5" rx="2.5" fill="#facc15"/>
+    <text x="60" y="142" font-size="13" font-weight="700" letter-spacing="1.5" fill="#facc15">1 · DADOS</text>
+    <text x="60" y="176" font-size="28" font-weight="800" fill="#ffffff">Python</text>
+    <text x="60" y="204" font-size="16" fill="#a1a1aa">gera vendas fictícias</text>
+  </g>
+
+  <!-- 2 PostgreSQL -->
+  <g class="no" style="animation-delay:.2s">
+    <rect x="328" y="112" width="258" height="120" rx="14" fill="#1c1917" stroke="#4169e1" stroke-opacity=".6"/>
+    <rect x="346" y="112" width="222" height="5" rx="2.5" fill="#4169e1"/>
+    <text x="348" y="146" font-size="13" font-weight="700" letter-spacing="1.5" fill="#7b9af0">2 · BANCO</text>
+    <text x="348" y="180" font-size="28" font-weight="800" fill="#ffffff">PostgreSQL</text>
+    <text x="348" y="208" font-size="16" fill="#a1a1aa">tabelas, views e SQL</text>
+  </g>
+
+  <!-- 3 API -->
+  <g class="no" style="animation-delay:.35s">
+    <rect x="658" y="108" width="238" height="120" rx="14" fill="#1c1917" stroke="#5fa04e" stroke-opacity=".6"/>
+    <rect x="676" y="108" width="202" height="5" rx="2.5" fill="#5fa04e"/>
+    <text x="678" y="142" font-size="13" font-weight="700" letter-spacing="1.5" fill="#7cc26b">3 · API REST</text>
+    <text x="678" y="176" font-size="28" font-weight="800" fill="#ffffff">Express</text>
+    <text x="678" y="204" font-size="16" fill="#a1a1aa">Node.js + TypeScript</text>
+  </g>
+
+  <!-- 4 Painel -->
+  <g class="no" style="animation-delay:.5s">
+    <rect x="958" y="108" width="202" height="120" rx="14" fill="#1c1917" stroke="#ef4444" stroke-opacity=".65"/>
+    <rect x="976" y="108" width="166" height="5" rx="2.5" fill="url(#acc)"/>
+    <text x="978" y="142" font-size="13" font-weight="700" letter-spacing="1.5" fill="#fb923c">4 · PAINEL</text>
+    <text x="978" y="176" font-size="28" font-weight="800" fill="#ffffff">Chart.js</text>
+    <text x="978" y="204" font-size="16" fill="#a1a1aa">HTML, CSS e JS</text>
+  </g>
+</svg>

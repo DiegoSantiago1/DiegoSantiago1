@@ -1,133 +1,64 @@
-# 🧑‍💻 Diego Santiago
+<div align="center">
 
-**`Dados · Backend · Automação`**
+<img src="assets/banner.svg" alt="Diego Santiago — Dados, Backend e Automação com IA" width="100%" />
 
-Me chamo Diego Freitas Santiago, tenho 25 anos e sou natural de Recife, Pernambuco. Curso Análise e Desenvolvimento de Sistemas no Centro Universitário FBV Wyden e trabalho como Analista Administrativo de Vendas numa concessionária Honda, onde uso dados de vendas no dia a dia. Estou migrando de uma base em desenvolvimento web (HTML, CSS, JS, Node) para Dados — SQL, Python, Power BI — mantendo backend e automação com IA como diferencial.
-<p>
-    </a> 
-    <a href="https://github.com/DiegoSantiago1?tab=repositories&sort=stargazers">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/DiegoSantiago1?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
-    <a href="https://github.com/DiegoSantiago1?tab=followers">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/DiegoSantiago1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
-</p>
+<br/>
+
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-EA580C?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/diego-freitas-santiago)
+[![E-mail](https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:freitasdiego140@gmail.com)
+
+</div>
+
+## Sobre mim
+
+Sou **Analista Administrativo de Vendas** em uma concessionária Honda, em Recife, e estudo **Análise e Desenvolvimento de Sistemas** na FBV Wyden. No dia a dia lido com dados de vendas, controle de entrada e saída de veículos e conferência de informações. Estou transformando essa vivência em carreira de **Dados**: SQL, Python, Power BI e, mais adiante, Engenharia de Dados.
+
+Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, TypeScript, React e Tailwind). Por isso consigo fazer o caminho inteiro: **modelar o banco, escrever a consulta, expor a API e construir o painel** em que a resposta aparece.
+
+- 📊 **Foco:** Análise de Dados com SQL, Python (Pandas e NumPy) e Power BI
+- ⚙️ **Diferencial:** Backend com Node.js, Express e TypeScript
+- 🤖 **Em estudo:** automação e IA aplicada (APIs de LLM, tool calling)
+- 🐳 **Infra:** Docker nos projetos, AWS em aprendizado
+
+## Stack
+
+<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Excel, Pandas, NumPy e Power BI. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: HTML, CSS, JavaScript, Tailwind CSS e React. Infra: Docker, Git, GitHub e AWS." width="100%" />
+
+## Projeto em destaque: Painel de Vendas Honda
+
+<a href="https://github.com/DiegoSantiago1/analise-vendas-concessionaria">
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/analise-vendas-concessionaria/main/docs/screenshots/painel.png" alt="Painel de vendas com metas por loja, ranking de vendedores e calendário de vendas" width="100%" />
+</a>
+
+<br/><br/>
+
+Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Honda de Recife**. O repositório é a versão reconstruída para portfólio, com dados 100% fictícios e sem nenhuma informação da empresa.
+
+<img src="assets/pipeline.svg" alt="Fluxo: Python gera os dados, PostgreSQL em Docker armazena, API REST em Express expõe e o painel em Chart.js exibe" width="100%" />
+
+- **Banco:** modelagem relacional no PostgreSQL, com chaves, views e índices, e agregações escritas em SQL, sem ORM
+- **API:** REST em Node.js, Express e TypeScript, com validação e tratamento central de erros
+- **Painel:** filtro por loja, metas, ranking de vendedores, mix de modelos e calendário de vendas
+- **Detalhes que importam:** fuso horário tratado no banco e gerente derivado do vendedor, para evitar erro de cadastro
+
+[📂 Ver o repositório](https://github.com/DiegoSantiago1/analise-vendas-concessionaria) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+
+## Atividade
+
+<img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0F0B0B&border=2A1E1E&stroke=2A1E1E&ring=F97316&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FB923C&sideLabels=D1D5DB&dates=9CA3AF&border_radius=14" alt="Sequência de contribuições no GitHub" width="100%" />
+
+## Próximos projetos
+
+- 📦 **Estoque e Logística:** SQL e Pandas sobre movimentação de veículos
+- 👥 **Customer Analytics:** segmentação RFM, churn e valor do cliente
+- 🔄 **Data Platform:** pipeline de dados com Docker e AWS
+- 🤖 **AI Business Analyst:** LLM consultando o banco com tool calling e limites de segurança
 
 ---
 
-### 🤖 Linguagens e Tecnologias
+<div align="center">
 
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="TypeScript"
-    title="TypeScript" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="React"
-    title="React" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Tailwind" 
-    title="Tailwind"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Python"
-    title="Python" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="PostgreSQL"
-    title="PostgreSQL" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Docker"
-    title="Docker" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" 
-/>
+Aberto a conversar sobre oportunidades em **Análise de Dados** e **Backend**.
 
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
-
-<img 
-    align="left" 
-    alt="Node.Js" 
-    title="Noje.Js"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://github.com/user-attachments/assets/7ae7a327-7be8-40b8-9387-4ce88731718a" />
-
-<br/>
-<br/>
-
-### 📊 Estatísticas
-
-<div style="display: flex; gap: 10px;">
-  <img 
-    height="200" 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=DiegoSantiago1&show_icons=true&theme=tokyonight" 
-  />
-
-  <img 
-    height="200" 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DiegoSantiago1&theme=tokyonight&layout=compact" 
-  />
 </div>

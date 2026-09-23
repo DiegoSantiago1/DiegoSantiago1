@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">Diego Santiago — Dados, Backend e Automação com IA</title>
+  <desc id="d">Banner com nome, área de atuação e um gráfico de barras com linha de tendência animados.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0f"/>
+      <stop offset="1" stop-color="#1d0d0d"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#b91c1c" stop-opacity=".45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".85" cy=".15" r=".65">
+      <stop offset="0" stop-color="#ef4444" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="340" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .b { transform-box: fill-box; transform-origin: 50% 100%; animation: grow 1.3s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    .line { stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 1.8s .9s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .dot { opacity: 0; animation: pop .4s ease-out forwards; }
+    @keyframes pop { from { opacity: 0; } to { opacity: 1; } }
+    .name { animation: rise .9s .1s ease-out both; }
+    .tag { animation: rise .9s .3s ease-out both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .r { opacity: 0; animation: swap 9s infinite; }
+    .r2 { animation-delay: 3s; }
+    .r3 { animation-delay: 6s; }
+    @keyframes swap {
+      0%   { opacity: 0; transform: translateY(8px); }
+      5%, 30% { opacity: 1; transform: translateY(0); }
+      35%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .line { stroke-dashoffset: 0; }
+      .dot, .r1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <!-- gráfico -->
+    <g stroke="#ffffff" stroke-opacity=".08">
+      <line x1="700" y1="290" x2="1150" y2="290" stroke-opacity=".22"/>
+      <line x1="700" y1="240" x2="1150" y2="240"/>
+      <line x1="700" y1="190" x2="1150" y2="190"/>
+      <line x1="700" y1="140" x2="1150" y2="140"/>
+      <line x1="700" y1="90" x2="1150" y2="90"/>
+    </g>
+    <g fill="url(#bar)">
+      <rect class="b" x="720"  y="226" width="26" height="64"  rx="5" style="animation-delay:.05s"/>
+      <rect class="b" x="762"  y="198" width="26" height="92"  rx="5" style="animation-delay:.12s"/>
+      <rect class="b" x="804"  y="210" width="26" height="80"  rx="5" style="animation-delay:.19s"/>
+      <rect class="b" x="846"  y="168" width="26" height="122" rx="5" style="animation-delay:.26s"/>
+      <rect class="b" x="888"  y="182" width="26" height="108" rx="5" style="animation-delay:.33s"/>
+      <rect class="b" x="930"  y="140" width="26" height="150" rx="5" style="animation-delay:.40s"/>
+      <rect class="b" x="972"  y="156" width="26" height="134" rx="5" style="animation-delay:.47s"/>
+      <rect class="b" x="1014" y="114" width="26" height="176" rx="5" style="animation-delay:.54s"/>
+      <rect class="b" x="1056" y="130" width="26" height="160" rx="5" style="animation-delay:.61s"/>
+      <rect class="b" x="1098" y="82"  width="26" height="208" rx="5" style="animation-delay:.68s"/>
+    </g>
+    <path class="line" d="M733,208 L775,180 L817,192 L859,150 L901,164 L943,122 L985,138 L1027,96 L1069,112 L1111,64"
+          fill="none" stroke="#fde68a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#fde68a">
+      <circle class="dot" cx="733"  cy="208" r="4" style="animation-delay:1.0s"/>
+      <circle class="dot" cx="859"  cy="150" r="4" style="animation-delay:1.4s"/>
+      <circle class="dot" cx="943"  cy="122" r="4" style="animation-delay:1.7s"/>
+      <circle class="dot" cx="1027" cy="96"  r="4" style="animation-delay:2.0s"/>
+      <circle class="dot" cx="1111" cy="64"  r="6" style="animation-delay:2.4s"/>
+    </g>
+
+    <!-- textos -->
+    <text x="60" y="92" font-size="14" font-weight="700" letter-spacing="3.2" fill="#fb923c">ANALISTA DE VENDAS  ·  HONDA  ·  RECIFE</text>
+    <text class="name" x="60" y="168" font-size="68" font-weight="800" fill="#ffffff">Diego Santiago</text>
+    <text class="tag" x="60" y="216" font-size="28" font-weight="600" fill="url(#acc)">Dados · Backend · Automação com IA</text>
+
+    <text class="r r1" x="60" y="268" font-size="19" fill="#d1d5db">SQL · Python · Power BI · PostgreSQL</text>
+    <text class="r r2" x="60" y="268" font-size="19" fill="#d1d5db">APIs REST com Node.js, Express e TypeScript</text>
+    <text class="r r3" x="60" y="268" font-size="19" fill="#d1d5db">Painéis que transformam vendas em decisões</text>
+  </g>
+</svg>
