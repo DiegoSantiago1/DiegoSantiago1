@@ -53,7 +53,7 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 
 <br/><br/>
 
-Projeto **real**: na seção de material em que trabalhei na **Força Aérea**, as cautelas eram feitas no papel e na caneta. **Desenvolvi o sistema que substituiu o papel e continua em uso**, e os relatórios usados nas reuniões com os superiores para controlar o estoque. O repositório é a versão reconstruída para portfólio, com dados 100% fictícios e sem nenhuma informação da organização.
+Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de material em que trabalhei na **Força Aérea**, que segue em uso, e os relatórios de estoque apresentados nas reuniões com os superiores. O repositório é a versão reconstruída para portfólio, com dados 100% fictícios e sem nenhuma informação da organização.
 
 - **Banco:** PostgreSQL com as regras de negócio em funções, histórico de movimentações imutável e concorrência tratada (`FOR UPDATE SKIP LOCKED`)
 - **Análises:** conferência de planilha, atrasos, ociosidade e ruptura de estoque, em SQL (CTEs, window functions) e Python (Pandas)
