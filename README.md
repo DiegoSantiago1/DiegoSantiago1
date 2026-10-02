@@ -44,6 +44,24 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 
 [▶ Abrir a demo online](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/analise-vendas-concessionaria) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
 
+## Controle de Materiais e Cautela
+
+<a href="https://github.com/DiegoSantiago1/controle-materiais-cautela">
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/controle-materiais-cautela/main/docs/img/app_inicio.png" alt="Sistema de controle de material: ações de balcão, posses vencidas e últimas movimentações" width="49%" />
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/controle-materiais-cautela/main/docs/img/powerbi_estoque.png" alt="Relatório no Power BI: estoque agora, com a situação de cada material" width="49%" />
+</a>
+
+<br/><br/>
+
+Inspirado nos meus 6 anos de **controle de material na Força Aérea**: quem está com cada equipamento, o que está atrasado, o que sobra e o que falta. Sistema e dados 100% fictícios.
+
+- **Banco:** PostgreSQL com as regras de negócio em funções, histórico de movimentações imutável e concorrência tratada (`FOR UPDATE SKIP LOCKED`)
+- **Análises:** conferência de planilha, atrasos, ociosidade e ruptura de estoque, em SQL (CTEs, window functions) e Python (Pandas)
+- **Power BI:** dois relatórios em modelo estrela, versionados como código (PBIP), com cada número conferido contra o SQL
+- **Sistema web:** retirada, devolução, posse e estoque, com perfis de acesso, auditoria e 700+ testes automatizados
+
+[📂 Ver o repositório](https://github.com/DiegoSantiago1/controle-materiais-cautela) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+
 ## Atividade
 
 <div align="center">
@@ -52,7 +70,6 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 
 ## Próximos projetos
 
-- 📦 **Estoque e Logística:** SQL e Pandas sobre movimentação de veículos
 - 👥 **Customer Analytics:** segmentação RFM, churn e valor do cliente
 - 🔄 **Data Platform:** pipeline de dados com Docker e AWS
 - 🤖 **AI Business Analyst:** LLM consultando o banco com tool calling e limites de segurança
