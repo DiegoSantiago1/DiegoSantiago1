@@ -60,7 +60,7 @@ Projeto **real**: na seção de material em que trabalhei na **Força Aérea**, 
 - **Power BI:** dois relatórios em modelo estrela, versionados como código (PBIP), com cada número conferido contra o SQL
 - **Sistema web:** retirada, devolução, posse e estoque, com perfis de acesso, auditoria e 700+ testes automatizados
 
-[📂 Ver o repositório](https://github.com/DiegoSantiago1/controle-materiais-cautela) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+[▶ Abrir a demo online](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/controle-materiais-cautela) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade
 
