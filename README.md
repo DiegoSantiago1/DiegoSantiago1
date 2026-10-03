@@ -85,6 +85,25 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/customer-analytics-online-retail)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
+## Pipeline das Bicicletas de Londres
+
+<a href="https://diegosantiago1.github.io/london-cycle-hire-pipeline/">
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/london-cycle-hire-pipeline/main/docs/img/mapa_fluxos.png" alt="Mapa dos fluxos de bicicletas às 8h em Londres: as maiores ligações saem da estação de Waterloo para a City" width="100%" />
+</a>
+
+<br/><br/>
+
+**Dados reais e públicos** das bicicletas de Londres (TfL Santander Cycles), num pipeline em que **o dado não para de chegar**: onde as estações ficam vazias ou cheias, quando, e onde a operação deve agir primeiro.
+
+- **Coleta ao vivo:** as cerca de 800 estações a cada 15 minutos, com o dado bruto guardado intocado e um registro de cada execução
+- **Carga incremental:** 41 milhões de viagens em 148 arquivos com 6 formatos de cabeçalho, lidas pelo nome da coluna; rodar duas vezes não duplica
+- **dbt:** 16 modelos e 47 testes; demanda perdida estimada por estação e hora
+- **Todo dia:** o banco é recriado do zero no GitHub Actions e a página se atualiza sozinha, com a saúde do próprio pipeline
+
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/london-cycle-hire-pipeline/)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/london-cycle-hire-pipeline)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
+
 ## Atividade
 
 <div align="center">
@@ -93,7 +112,6 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 
 ## Próximos projetos
 
-- 🔄 **Data Platform:** pipeline de dados com Docker e AWS
 - 🤖 **AI Business Analyst:** LLM consultando o banco com tool calling e limites de segurança
 
 ---
