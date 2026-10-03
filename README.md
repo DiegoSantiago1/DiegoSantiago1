@@ -42,7 +42,9 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 - **Painel:** filtro por loja, metas, ranking de vendedores, mix de modelos e calendário de vendas
 - **Detalhes que importam:** fuso horário tratado no banco e gerente derivado do vendedor, para evitar erro de cadastro
 
-[▶ Abrir a demo online](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/analise-vendas-concessionaria) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/analise-vendas-concessionaria)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Controle de Materiais e Cautela
 
@@ -60,7 +62,9 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Power BI:** dois relatórios em modelo estrela, versionados como código (PBIP), com cada número conferido contra o SQL
 - **Sistema web:** retirada, devolução, posse e estoque, com perfis de acesso, auditoria e 700+ testes automatizados
 
-[▶ Abrir a demo online](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/controle-materiais-cautela) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/controle-materiais-cautela)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Customer Analytics: Varejo Online
 
@@ -77,7 +81,9 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Retenção e valor do cliente:** coortes com window functions e CLV de 6 meses, que ganhou de um modelo ingênuo sazonal
 - **Engenharia:** limpeza e análise em SQL versionado no PostgreSQL, 18 checagens de qualidade, 280 testes e Power BI com cada número conferido contra o SQL
 
-[▶ Abrir a página interativa](https://diegosantiago1.github.io/customer-analytics-online-retail/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/customer-analytics-online-retail) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/customer-analytics-online-retail/)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/customer-analytics-online-retail)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade
 
