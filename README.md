@@ -12,7 +12,7 @@
 
 ## Sobre mim
 
-Sou **Analista Administrativo de Vendas** em uma concessionária Honda, em Recife, e estudo **Análise e Desenvolvimento de Sistemas** na FBV Wyden. No dia a dia lido com dados de vendas, controle de entrada e saída de veículos e conferência de informações. Estou transformando essa vivência em carreira de **Dados**: SQL, Python, Power BI e, mais adiante, Engenharia de Dados.
+Sou **Analista de Dados I** na Autoline Honda, em Recife, e estudo **Análise e Desenvolvimento de Sistemas** na FBV Wyden. No dia a dia trabalho com dados de vendas, controle de entrada e saída de veículos e conferência de informações, e desenvolvi o painel de vendas que hoje está em uso em concessionárias Honda de Recife. Meu foco é **Dados** (SQL, Python, Power BI, dbt), em direção à Engenharia de Dados.
 
 Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, TypeScript, React e Tailwind). Por isso consigo fazer o caminho inteiro: **modelar o banco, escrever a consulta, expor a API e construir o painel** em que a resposta aparece.
 
