@@ -62,6 +62,23 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 
 [▶ Abrir a demo online](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/controle-materiais-cautela) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
 
+## Customer Analytics: Varejo Online
+
+<a href="https://diegosantiago1.github.io/customer-analytics-online-retail/">
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/customer-analytics-online-retail/main/docs/img/powerbi_segmentos.png" alt="Relatório no Power BI: segmentos RFM, com clientes, receita, clientes em risco e valor previsto por segmento" width="100%" />
+</a>
+
+<br/><br/>
+
+**Dados reais e públicos** de uma loja online do Reino Unido que vende presentes e utilidades, com muitos clientes lojistas: 1 milhão de linhas de vendas em dois anos (UCI Online Retail II). Respondi as quatro perguntas de um time de CRM e **conferi cada resposta contra o que de fato aconteceu depois**.
+
+- **Melhores clientes:** segmentação RFM em SQL. Os Campeões são 24% dos clientes e trazem 69% da receita
+- **Quem está indo embora:** regra de churn testada numa data passada. 1.376 clientes em risco, com £838 mil de receita no último ano, e quase metade disso está em clientes leais que pararam
+- **Retenção e valor do cliente:** coortes com window functions e CLV de 6 meses, que ganhou de um modelo ingênuo sazonal
+- **Engenharia:** limpeza e análise em SQL versionado no PostgreSQL, 18 checagens de qualidade, 280 testes e Power BI com cada número conferido contra o SQL
+
+[▶ Abrir a página interativa](https://diegosantiago1.github.io/customer-analytics-online-retail/) · [📂 Ver o repositório](https://github.com/DiegoSantiago1/customer-analytics-online-retail) · [🌐 Ver no portfólio](https://diegosantiago1.github.io/Portifolio/#projetos)
+
 ## Atividade
 
 <div align="center">
@@ -70,7 +87,6 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 
 ## Próximos projetos
 
-- 👥 **Customer Analytics:** segmentação RFM, churn e valor do cliente
 - 🔄 **Data Platform:** pipeline de dados com Docker e AWS
 - 🤖 **AI Business Analyst:** LLM consultando o banco com tool calling e limites de segurança
 
