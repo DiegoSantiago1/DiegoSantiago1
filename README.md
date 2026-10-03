@@ -97,7 +97,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 
 - **Coleta ao vivo:** as cerca de 800 estações a cada 15 minutos, com o dado bruto guardado intocado e um registro de cada execução
 - **Carga incremental:** 41 milhões de viagens em 148 arquivos com 6 formatos de cabeçalho, lidas pelo nome da coluna; rodar duas vezes não duplica
-- **dbt:** 16 modelos e 47 testes; demanda perdida estimada por estação e hora
+- **dbt:** 17 modelos e 47 testes; demanda perdida estimada por estação e hora
 - **Todo dia:** o banco é recriado do zero no GitHub Actions e a página se atualiza sozinha, com a saúde do próprio pipeline
 
 [![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/london-cycle-hire-pipeline/)
