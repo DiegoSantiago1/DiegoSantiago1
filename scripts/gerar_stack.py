@@ -75,11 +75,11 @@ def esc(texto: str) -> str:
 def area(x: int, y: int, w: int, titulo: str, sub: str, chips: list, atraso: list[float], destaque: bool) -> tuple[str, int]:
     linhas = chips_em_linhas(chips, w - 40)
     h = 70 + len(linhas) * (CHIP_ALTURA + LINHA_ESPACO) + 12
-    borda = 'stroke="#3b82f6" stroke-opacity=".55"' if destaque else 'stroke="#ffffff" stroke-opacity=".08"'
+    borda = 'stroke="url(#borda)" stroke-opacity=".75"' if destaque else 'stroke="#ffffff" stroke-opacity=".08"'
     partes = [
         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="#ffffff" fill-opacity=".025" {borda}/>',
         f'<text x="{x + 20}" y="{y + 34}" font-size="20" font-weight="700" fill="#ffffff">{esc(titulo)}</text>',
-        f'<text x="{x + w - 16}" y="{y + 33}" font-size="14" text-anchor="end" fill="#94a3b8">{esc(sub)}</text>',
+        f'<text x="{x + w - 16}" y="{y + 33}" font-size="14" text-anchor="end" fill="#a1a1b5">{esc(sub)}</text>',
     ]
     cy = y + 59
     for linha in linhas:
@@ -87,11 +87,11 @@ def area(x: int, y: int, w: int, titulo: str, sub: str, chips: list, atraso: lis
         for nome, cor, cw, usado in linha:
             atraso[0] += 0.045
             if usado:
-                corpo = f'<rect x="{cx}" y="{cy}" width="{cw}" height="{CHIP_ALTURA}" rx="19" fill="#0f172a" stroke="{cor}" stroke-opacity=".6"/>'
+                corpo = f'<rect x="{cx}" y="{cy}" width="{cw}" height="{CHIP_ALTURA}" rx="19" fill="#13101f" stroke="{cor}" stroke-opacity=".6"/>'
                 ponto, texto = "1", "#f1f5f9"
             else:
                 corpo = f'<rect x="{cx}" y="{cy}" width="{cw}" height="{CHIP_ALTURA}" rx="19" fill="none" stroke="{cor}" stroke-opacity=".65" stroke-dasharray="4 4"/>'
-                ponto, texto = "0.7", "#94a3b8"
+                ponto, texto = "0.7", "#a1a1b5"
             partes.append(
                 f'<g class="c" style="animation-delay:{atraso[0]:.2f}s">{corpo}'
                 f'<circle cx="{cx + 20}" cy="{cy + 19}" r="5.5" fill="{cor}" fill-opacity="{ponto}"/>'
@@ -126,7 +126,8 @@ def gerar() -> str:
   <title id="t">Stack de tecnologias</title>
   <desc id="d">{esc(desc)}</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050a18"/><stop offset="1" stop-color="#0b1a3a"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#09090f"/><stop offset="1" stop-color="#170d2b"/></linearGradient>
+    <linearGradient id="borda" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
   </defs>
   <style>
     text {{ font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; }}
@@ -136,12 +137,12 @@ def gerar() -> str:
   </style>
   <rect width="{LARGURA}" height="{altura}" rx="18" fill="url(#bg)"/>
   <rect x=".5" y=".5" width="{LARGURA - 1}" height="{altura - 1}" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
-  <text x="40" y="50" font-size="14" font-weight="700" letter-spacing="3" fill="#60a5fa">STACK POR ÁREA</text>
+  <text x="40" y="50" font-size="14" font-weight="700" letter-spacing="3" fill="#2dd4bf">STACK POR ÁREA</text>
   <g transform="translate(790 32)">
-    <rect x="0" y="0" width="34" height="20" rx="10" fill="#0f172a" stroke="#3b82f6" stroke-opacity=".9"/>
-    <text x="44" y="16" font-size="14" fill="#cbd5e1">usado em projetos</text>
-    <rect x="190" y="0" width="34" height="20" rx="10" fill="none" stroke="#94a3b8" stroke-opacity=".9" stroke-dasharray="4 4"/>
-    <text x="234" y="16" font-size="14" fill="#cbd5e1">aprofundando</text>
+    <rect x="0" y="0" width="34" height="20" rx="10" fill="#13101f" stroke="#a78bfa" stroke-opacity=".9"/>
+    <text x="44" y="16" font-size="14" fill="#d4d4e0">usado em projetos</text>
+    <rect x="190" y="0" width="34" height="20" rx="10" fill="none" stroke="#a1a1b5" stroke-opacity=".9" stroke-dasharray="4 4"/>
+    <text x="234" y="16" font-size="14" fill="#d4d4e0">aprofundando</text>
   </g>
   {"".join(corpo)}
 </svg>
