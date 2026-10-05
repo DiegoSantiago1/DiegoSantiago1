@@ -104,15 +104,29 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/london-cycle-hire-pipeline)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
+## AI Business Analyst
+
+<a href="https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/">
+  <img src="https://diegosantiago1.github.io/Portifolio/assets/images/ai-business-analyst.png" alt="Página do AI Business Analyst: o gerente pergunta em português e a IA consulta o banco e mostra a conta; 28 de 32 perguntas certas e 95% dos números conferidos no banco" width="100%" />
+</a>
+
+<br/><br/>
+
+**IA aplicada a dados:** o gerente de uma rede de concessionárias pergunta em português e um LLM com **tool calling** consulta o PostgreSQL **só para leitura**, respondendo com números conferíveis, cada um com o SQL que o gerou (dados 100% fictícios).
+
+- **Métricas oficiais:** a IA escolhe a métrica e a API monta SQL parametrizado; o SQL livre é só reserva
+- **Segurança em 4 camadas:** o usuário da IA só tem SELECT em 7 views; ataques testados um a um
+- **Avaliação:** 36 perguntas com resposta certa conhecida, incluindo pedidos hostis e injeção pelo dado
+- **Números conferidos:** cada valor citado é procurado no resultado do banco; o que a IA calculou sozinha é marcado
+
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
+
 ## Atividade
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0F0B0B&border=2A1E1E&stroke=2A1E1E&ring=F97316&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FB923C&sideLabels=D1D5DB&dates=9CA3AF&border_radius=14" alt="Sequência de contribuições no GitHub" width="495" />
 </div>
-
-## Próximos projetos
-
-- 🤖 **AI Business Analyst:** LLM consultando o banco com tool calling e limites de segurança
 
 ---
 
