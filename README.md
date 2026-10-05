@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Diego Santiago — Dados, Backend e Automação com IA" width="100%" />
+<img src="assets/banner.svg" alt="Diego Santiago — Dados, Backend e IA aplicada" width="100%" />
 
 <br/>
 
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-EA580C?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/diego-freitas-santiago)
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:freitasdiego140@gmail.com)
 
@@ -18,12 +18,12 @@ Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, Ty
 
 - 📊 **Foco:** Análise de Dados com SQL, Python (Pandas e NumPy) e Power BI
 - ⚙️ **Diferencial:** Backend com Node.js, Express e TypeScript
-- 🤖 **Em estudo:** automação e IA aplicada (APIs de LLM, tool calling)
-- 🐳 **Infra:** Docker nos projetos, AWS em aprendizado
+- 🤖 **IA aplicada:** LLM com tool calling, saída estruturada e avaliação de respostas (Projeto 5, no ar)
+- 🐳 **Infra:** Docker, GitHub Actions e deploy no Render; AWS em aprendizado
 
 ## Stack
 
-<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Excel, Pandas, NumPy e Power BI. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: HTML, CSS, JavaScript, Tailwind CSS e React. Infra: Docker, Git, GitHub e AWS." width="100%" />
+<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt e Excel. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test; AWS em estudo." width="100%" />
 
 ## Projeto em destaque: Painel de Vendas Honda
 
@@ -42,7 +42,7 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 - **Painel:** filtro por loja, metas, ranking de vendedores, mix de modelos e calendário de vendas
 - **Detalhes que importam:** fuso horário tratado no banco e gerente derivado do vendedor, para evitar erro de cadastro
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-2563EB?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/analise-vendas-concessionaria)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -62,7 +62,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Power BI:** dois relatórios em modelo estrela, versionados como código (PBIP), com cada número conferido contra o SQL
 - **Sistema web:** retirada, devolução, posse e estoque, com perfis de acesso, auditoria e 700+ testes automatizados
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-2563EB?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/controle-materiais-cautela)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -81,7 +81,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Retenção e valor do cliente:** coortes com window functions e CLV de 6 meses, que ganhou de um modelo ingênuo sazonal
 - **Engenharia:** limpeza e análise em SQL versionado no PostgreSQL, 18 checagens de qualidade, 280 testes e Power BI com cada número conferido contra o SQL
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/customer-analytics-online-retail/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-2563EB?style=for-the-badge)](https://diegosantiago1.github.io/customer-analytics-online-retail/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/customer-analytics-online-retail)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -100,7 +100,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **dbt:** 17 modelos e 47 testes; demanda perdida estimada por estação e hora
 - **Todo dia:** o banco é recriado do zero no GitHub Actions e a página se atualiza sozinha, com a saúde do próprio pipeline
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/london-cycle-hire-pipeline/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-2563EB?style=for-the-badge)](https://diegosantiago1.github.io/london-cycle-hire-pipeline/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/london-cycle-hire-pipeline)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -119,14 +119,14 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Avaliação:** 36 perguntas com resposta certa conhecida, incluindo pedidos hostis e injeção pelo dado
 - **Números conferidos:** cada valor citado é procurado no resultado do banco; o que a IA calculou sozinha é marcado
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-2563EB?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
 [![Pergunte à IA ao vivo](https://img.shields.io/badge/%F0%9F%92%AC%20Pergunte%20%C3%A0%20IA%20ao%20vivo-C5F03A?style=for-the-badge)](https://ai-business-analyst-f85s.onrender.com)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0F0B0B&border=2A1E1E&stroke=2A1E1E&ring=F97316&fire=EF4444&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FB923C&sideLabels=D1D5DB&dates=9CA3AF&border_radius=14" alt="Sequência de contribuições no GitHub" width="495" />
+  <img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0B1220&border=1E293B&stroke=1E293B&ring=3B82F6&fire=22D3EE&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=60A5FA&sideLabels=CBD5E1&dates=94A3B8&border_radius=14" alt="Sequência de contribuições no GitHub" width="495" />
 </div>
 
 ---
