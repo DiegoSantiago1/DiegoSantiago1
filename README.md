@@ -121,6 +121,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 
 [![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
 [![Pergunte à IA ao vivo](https://img.shields.io/badge/%F0%9F%92%AC%20Pergunte%20%C3%A0%20IA%20ao%20vivo-C5F03A?style=for-the-badge)](https://ai-business-analyst-f85s.onrender.com)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/ai-business-analyst)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade
