@@ -12,7 +12,7 @@
 
 ## Sobre mim
 
-Sou **Analista de Dados I** na Autoline Honda, em Recife, e estudo **Análise e Desenvolvimento de Sistemas** na FBV Wyden. No dia a dia trabalho com dados de vendas, controle de entrada e saída de veículos e conferência de informações, e desenvolvi o painel de vendas que hoje está em uso em concessionárias Honda de Recife. Meu foco é **Dados** (SQL, Python, Power BI, dbt), em direção à Engenharia de Dados.
+Sou **Analista de Dados I** na Autoline Honda, em Recife, e estudo **Análise e Desenvolvimento de Sistemas** na FBV Wyden. No dia a dia trabalho com dados de vendas, controle de entrada e saída de veículos e conferência de informações, e desenvolvi o painel de vendas que hoje está em uso em concessionárias Honda de Recife. Meu foco é **Dados** (SQL, Python, Power BI, dbt) e **Engenharia de Dados** (PySpark, Delta Lake, pipelines idempotentes).
 
 Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, TypeScript, React e Tailwind). Por isso consigo fazer o caminho inteiro: **modelar o banco, escrever a consulta, expor a API e construir o painel** em que a resposta aparece.
 
@@ -23,7 +23,7 @@ Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, Ty
 
 ## Stack
 
-<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt e Excel. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test; AWS em estudo." width="100%" />
+<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt, PySpark, Delta Lake e Excel. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test; AWS em estudo." width="100%" />
 
 ## Projeto em destaque: Painel de Vendas Honda
 
@@ -122,6 +122,25 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 [![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
 [![Pergunte à IA ao vivo](https://img.shields.io/badge/%F0%9F%92%AC%20Pergunte%20%C3%A0%20IA%20ao%20vivo-C5F03A?style=for-the-badge)](https://ai-business-analyst-f85s.onrender.com)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/ai-business-analyst)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
+
+## Lakehouse do Financiamento Imobiliário (EUA)
+
+<a href="https://diegosantiago1.github.io/us-mortgage-lakehouse/">
+  <img src="https://diegosantiago1.github.io/Portifolio/assets/images/us-mortgage-lakehouse.png" alt="Página do lakehouse do financiamento imobiliário dos EUA: mapa do valor do imóvel dividido pela renda por estado em 2021 e a série nacional de 2018 a 2025" width="100%" />
+</a>
+
+<br/><br/>
+
+**Engenharia de dados com dados reais e públicos do governo dos EUA (HMDA):** 222,7 milhões de pedidos de financiamento imobiliário de 2018 a 2025, num lakehouse em **PySpark + Delta Lake**. Quem consegue financiar a casa, e quanto o próprio dado do governo muda entre as versões que ele publica.
+
+- **Bronze → silver → gold:** carga idempotente (SHA-256 e `replaceWhere`), CHECK constraints e `RESTORE` se a contagem não bate; nenhuma linha perdida
+- **Versões sem chave:** o governo publica cada ano 3 vezes e o dado não tem ID do empréstimo; comparo como multiconjuntos por hash, provado contra o `exceptAll` do Spark
+- **Conferido contra o governo:** estado × resultado na API oficial e registros por banco; taxas de negativa a 0,06 p.p. do relatório do CFPB
+- **Achados:** o refinanciamento caiu 98% com a alta dos juros de 2022; ~5% das linhas mudam entre versões, mas as métricas nacionais quase não
+
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/us-mortgage-lakehouse/)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/us-mortgage-lakehouse)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade

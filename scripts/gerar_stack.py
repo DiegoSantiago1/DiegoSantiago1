@@ -17,6 +17,8 @@ AREAS = [
         ("NumPy", "#4dabcf", 100, True),
         ("Power BI", "#f2c811", 125, True),
         ("dbt", "#ff694b", 70, True),
+        ("PySpark", "#e25a1c", 115, True),
+        ("Delta Lake", "#00add4", 140, True),
         ("Excel", "#22c55e", 95, True),
     ]),
     ("IA aplicada", "LLM em produção, com limites", [
