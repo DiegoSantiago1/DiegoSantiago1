@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-EA580C?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/diego-freitas-santiago)
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:freitasdiego140@gmail.com)
 
@@ -42,7 +42,7 @@ Projeto **real, pedido no meu trabalho e em uso em algumas concessionárias Hond
 - **Painel:** filtro por loja, metas, ranking de vendedores, mix de modelos e calendário de vendas
 - **Detalhes que importam:** fuso horário tratado no banco e gerente derivado do vendedor, para evitar erro de cadastro
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/painel-vendas/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/analise-vendas-concessionaria)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -62,7 +62,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Power BI:** dois relatórios em modelo estrela, versionados como código (PBIP), com cada número conferido contra o SQL
 - **Sistema web:** retirada, devolução, posse e estoque, com perfis de acesso, auditoria e 700+ testes automatizados
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/controle-materiais/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/controle-materiais-cautela)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -81,7 +81,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Retenção e valor do cliente:** coortes com window functions e CLV de 6 meses, que ganhou de um modelo ingênuo sazonal
 - **Engenharia:** limpeza e análise em SQL versionado no PostgreSQL, 18 checagens de qualidade, 280 testes e Power BI com cada número conferido contra o SQL
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/customer-analytics-online-retail/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/customer-analytics-online-retail/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/customer-analytics-online-retail)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -100,7 +100,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **dbt:** 17 modelos e 47 testes; demanda perdida estimada por estação e hora
 - **Todo dia:** o banco é recriado do zero no GitHub Actions e a página se atualiza sozinha, com a saúde do próprio pipeline
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/london-cycle-hire-pipeline/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/london-cycle-hire-pipeline/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/london-cycle-hire-pipeline)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
@@ -119,7 +119,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Avaliação:** 36 perguntas com resposta certa conhecida, incluindo pedidos hostis e injeção pelo dado
 - **Números conferidos:** cada valor citado é procurado no resultado do banco; o que a IA calculou sozinha é marcado
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/Portifolio/projetos/ai-business-analyst/)
 [![Pergunte à IA ao vivo](https://img.shields.io/badge/%F0%9F%92%AC%20Pergunte%20%C3%A0%20IA%20ao%20vivo-C5F03A?style=for-the-badge)](https://ai-business-analyst-f85s.onrender.com)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/ai-business-analyst)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
@@ -139,14 +139,14 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 - **Conferido contra o governo:** estado × resultado na API oficial e registros por banco; taxas de negativa a 0,06 p.p. do relatório do CFPB
 - **Achados:** o refinanciamento caiu 98% com a alta dos juros de 2022; ~5% das linhas mudam entre versões, mas as métricas nacionais quase não
 
-[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-7C3AED?style=for-the-badge)](https://diegosantiago1.github.io/us-mortgage-lakehouse/)
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/us-mortgage-lakehouse/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/us-mortgage-lakehouse)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
 ## Atividade
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0D0B16&border=2A2140&stroke=2A2140&ring=A78BFA&fire=F472B6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2DD4BF&sideLabels=D4D4E0&dates=A1A1B5&border_radius=14" alt="Sequência de contribuições no GitHub" width="495" />
+  <img src="https://streak-stats.demolab.com/?user=DiegoSantiago1&locale=pt_BR&background=0A0B0E&border=2A2620&stroke=2A2620&ring=F59E0B&fire=EA580C&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FBBF24&sideLabels=E7E5E4&dates=A8A29E&border_radius=14" alt="Sequência de contribuições no GitHub" width="495" />
 </div>
 
 ---

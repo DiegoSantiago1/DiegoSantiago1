@@ -4,26 +4,26 @@
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#09090f"/>
-      <stop offset="1" stop-color="#170d2b"/>
+      <stop offset="0" stop-color="#0a0b0e"/>
+      <stop offset="1" stop-color="#1a1610"/>
     </linearGradient>
     <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+      <stop offset="0" stop-color="#fbbf24"/><stop offset=".5" stop-color="#f59e0b"/><stop offset="1" stop-color="#ea580c"/>
     </linearGradient>
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#6d28d9" stop-opacity=".30"/>
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#b45309" stop-opacity=".30"/>
     </linearGradient>
     <radialGradient id="glow" cx=".85" cy=".15" r=".65">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".40"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#f59e0b" stop-opacity=".40"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
     </pattern>
     <radialGradient id="glow2" cx=".05" cy="1" r=".6">
-      <stop offset="0" stop-color="#f472b6" stop-opacity=".16"/>
-      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ea580c" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ea580c" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="round"><rect width="1200" height="340" rx="18"/></clipPath>
   </defs>
@@ -81,8 +81,8 @@
       <rect class="b" x="1098" y="82"  width="26" height="208" rx="5" style="animation-delay:.68s"/>
     </g>
     <path class="line" d="M733,208 L775,180 L817,192 L859,150 L901,164 L943,122 L985,138 L1027,96 L1069,112 L1111,64"
-          fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <g fill="#2dd4bf">
+          fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#fbbf24">
       <circle class="dot" cx="733"  cy="208" r="4" style="animation-delay:1.0s"/>
       <circle class="dot" cx="859"  cy="150" r="4" style="animation-delay:1.4s"/>
       <circle class="dot" cx="943"  cy="122" r="4" style="animation-delay:1.7s"/>
@@ -91,12 +91,12 @@
     </g>
 
     <!-- textos -->
-    <text x="60" y="92" font-size="14" font-weight="700" letter-spacing="3.2" fill="#2dd4bf">ANALISTA DE DADOS  ·  HONDA  ·  RECIFE</text>
+    <text x="60" y="92" font-size="14" font-weight="700" letter-spacing="3.2" fill="#fbbf24">ANALISTA DE DADOS  ·  HONDA  ·  RECIFE</text>
     <text class="name" x="60" y="168" font-size="68" font-weight="800" fill="#ffffff">Diego Santiago</text>
     <text class="tag" x="60" y="216" font-size="28" font-weight="600" fill="url(#acc)">Dados · Backend · IA aplicada</text>
 
-    <text class="r r1" x="60" y="268" font-size="19" fill="#d4d4e0">SQL · Python · Power BI · PostgreSQL · dbt</text>
-    <text class="r r2" x="60" y="268" font-size="19" fill="#d4d4e0">APIs em Node.js e TypeScript com LLM e tool calling</text>
-    <text class="r r3" x="60" y="268" font-size="19" fill="#d4d4e0">Painéis que transformam vendas em decisões</text>
+    <text class="r r1" x="60" y="268" font-size="19" fill="#e7e5e4">SQL · Python · PySpark · Delta Lake · dbt · Power BI</text>
+    <text class="r r2" x="60" y="268" font-size="19" fill="#e7e5e4">APIs em Node.js e TypeScript com LLM e tool calling</text>
+    <text class="r r3" x="60" y="268" font-size="19" fill="#e7e5e4">Painéis que transformam vendas em decisões</text>
   </g>
 </svg>

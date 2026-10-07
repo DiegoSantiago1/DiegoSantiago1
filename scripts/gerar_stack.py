@@ -13,7 +13,7 @@ AREAS = [
         ("SQL", "#14b8a6", 80, True),
         ("PostgreSQL", "#4169e1", 150, True),
         ("Python", "#facc15", 110, True),
-        ("Pandas", "#a78bfa", 110, True),
+        ("Pandas", "#e70488", 110, True),
         ("NumPy", "#4dabcf", 100, True),
         ("Power BI", "#f2c811", 125, True),
         ("dbt", "#ff694b", 70, True),
@@ -23,7 +23,7 @@ AREAS = [
     ]),
     ("IA aplicada", "LLM em produção, com limites", [
         ("LLM + tool calling", "#22d3ee", 215, True),
-        ("Saída estruturada (zod)", "#a5b4fc", 265, True),
+        ("Saída estruturada (zod)", "#3068b7", 265, True),
         ("Avaliação de IA", "#34d399", 190, True),
     ]),
     ("Backend", "APIs e servidores", [
@@ -42,7 +42,7 @@ AREAS = [
         ("Docker", "#2496ed", 110, True),
         ("GitHub Actions", "#2088ff", 180, True),
         ("Git & GitHub", "#f05032", 170, True),
-        ("Render", "#a78bfa", 105, True),
+        ("Render", "#d6d3d1", 105, True),
         ("pytest · node:test", "#0ea5e9", 205, True),
         ("AWS", "#ff9900", 80, False),
     ]),
@@ -81,7 +81,7 @@ def area(x: int, y: int, w: int, titulo: str, sub: str, chips: list, atraso: lis
     partes = [
         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="#ffffff" fill-opacity=".025" {borda}/>',
         f'<text x="{x + 20}" y="{y + 34}" font-size="20" font-weight="700" fill="#ffffff">{esc(titulo)}</text>',
-        f'<text x="{x + w - 16}" y="{y + 33}" font-size="14" text-anchor="end" fill="#a1a1b5">{esc(sub)}</text>',
+        f'<text x="{x + w - 16}" y="{y + 33}" font-size="14" text-anchor="end" fill="#a8a29e">{esc(sub)}</text>',
     ]
     cy = y + 59
     for linha in linhas:
@@ -89,11 +89,11 @@ def area(x: int, y: int, w: int, titulo: str, sub: str, chips: list, atraso: lis
         for nome, cor, cw, usado in linha:
             atraso[0] += 0.045
             if usado:
-                corpo = f'<rect x="{cx}" y="{cy}" width="{cw}" height="{CHIP_ALTURA}" rx="19" fill="#13101f" stroke="{cor}" stroke-opacity=".6"/>'
+                corpo = f'<rect x="{cx}" y="{cy}" width="{cw}" height="{CHIP_ALTURA}" rx="19" fill="#15161a" stroke="{cor}" stroke-opacity=".6"/>'
                 ponto, texto = "1", "#f1f5f9"
             else:
                 corpo = f'<rect x="{cx}" y="{cy}" width="{cw}" height="{CHIP_ALTURA}" rx="19" fill="none" stroke="{cor}" stroke-opacity=".65" stroke-dasharray="4 4"/>'
-                ponto, texto = "0.7", "#a1a1b5"
+                ponto, texto = "0.7", "#a8a29e"
             partes.append(
                 f'<g class="c" style="animation-delay:{atraso[0]:.2f}s">{corpo}'
                 f'<circle cx="{cx + 20}" cy="{cy + 19}" r="5.5" fill="{cor}" fill-opacity="{ponto}"/>'
@@ -128,8 +128,8 @@ def gerar() -> str:
   <title id="t">Stack de tecnologias</title>
   <desc id="d">{esc(desc)}</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#09090f"/><stop offset="1" stop-color="#170d2b"/></linearGradient>
-    <linearGradient id="borda" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b0e"/><stop offset="1" stop-color="#1a1610"/></linearGradient>
+    <linearGradient id="borda" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbbf24"/><stop offset=".5" stop-color="#f59e0b"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
   </defs>
   <style>
     text {{ font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; }}
@@ -139,12 +139,12 @@ def gerar() -> str:
   </style>
   <rect width="{LARGURA}" height="{altura}" rx="18" fill="url(#bg)"/>
   <rect x=".5" y=".5" width="{LARGURA - 1}" height="{altura - 1}" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
-  <text x="40" y="50" font-size="14" font-weight="700" letter-spacing="3" fill="#2dd4bf">STACK POR ÁREA</text>
+  <text x="40" y="50" font-size="14" font-weight="700" letter-spacing="3" fill="#fbbf24">STACK POR ÁREA</text>
   <g transform="translate(790 32)">
-    <rect x="0" y="0" width="34" height="20" rx="10" fill="#13101f" stroke="#a78bfa" stroke-opacity=".9"/>
-    <text x="44" y="16" font-size="14" fill="#d4d4e0">usado em projetos</text>
-    <rect x="190" y="0" width="34" height="20" rx="10" fill="none" stroke="#a1a1b5" stroke-opacity=".9" stroke-dasharray="4 4"/>
-    <text x="234" y="16" font-size="14" fill="#d4d4e0">aprofundando</text>
+    <rect x="0" y="0" width="34" height="20" rx="10" fill="#15161a" stroke="#f59e0b" stroke-opacity=".9"/>
+    <text x="44" y="16" font-size="14" fill="#e7e5e4">usado em projetos</text>
+    <rect x="190" y="0" width="34" height="20" rx="10" fill="none" stroke="#a8a29e" stroke-opacity=".9" stroke-dasharray="4 4"/>
+    <text x="234" y="16" font-size="14" fill="#e7e5e4">aprofundando</text>
   </g>
   {"".join(corpo)}
 </svg>
