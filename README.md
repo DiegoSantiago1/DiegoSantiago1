@@ -44,7 +44,7 @@ Engenharia de dados e IA primeiro. Todos têm página com os resultados e códig
 - **Versões sem chave:** o governo publica cada ano 3 vezes e o dado não tem ID do empréstimo; comparo como multiconjuntos por hash, provado contra o `exceptAll` do Spark
 - **Conferido contra o governo:** estado × resultado na API oficial e registros por banco; taxas de negativa a 0,06 p.p. do relatório do CFPB
 - **Achados:** o refinanciamento caiu 98% com a alta dos juros de 2022; ~5% das linhas mudam entre versões, mas as métricas nacionais quase não
-- **Catálogo e Databricks:** tabelas registradas num metastore Hive e no Unity Catalog do Databricks; o `EXPLAIN` mostra que o filtro por ano lê só a pasta do ano (14 de 109 arquivos), e o Databricks deu os mesmos números do Spark local
+- **Catálogo e Databricks:** tabelas registradas num metastore Hive e no Unity Catalog do Databricks; o `EXPLAIN` mostra que o filtro por ano lê só a pasta do ano (14 de 109 arquivos), e o Databricks deu os mesmos números do Spark local; um Z-ORDER por estado, medido numa cópia, cortou de 14 para 2 os arquivos lidos
 
 [![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/us-mortgage-lakehouse/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/us-mortgage-lakehouse)
