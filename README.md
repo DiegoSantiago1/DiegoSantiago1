@@ -24,7 +24,7 @@ Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, Ty
 
 ## Stack
 
-<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt, PySpark, Delta Lake e Excel. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test, AWS e Terraform." width="100%" />
+<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt, PySpark, Delta Lake, Excel e Databricks. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test, AWS e Terraform." width="100%" />
 
 ## Projetos
 
