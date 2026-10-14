@@ -19,11 +19,11 @@ Minha base é o desenvolvimento web (HTML, CSS, JavaScript, Node.js, Express, Ty
 - 📊 **Foco:** Análise de Dados com SQL, Python (Pandas e NumPy) e Power BI
 - ⚙️ **Diferencial:** Backend com Node.js, Express e TypeScript
 - 🤖 **IA aplicada:** LLM com tool calling, saída estruturada e avaliação de respostas (Projeto 5, no ar)
-- 🐳 **Infra:** Docker, GitHub Actions e deploy no Render; AWS em aprendizado
+- 🐳 **Infra:** Docker, GitHub Actions, deploy no Render e AWS com Terraform (Lambda, S3, EventBridge, IAM e OIDC no Projeto 4)
 
 ## Stack
 
-<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt, PySpark, Delta Lake e Excel. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test; AWS em estudo." width="100%" />
+<img src="assets/stack.svg" alt="Stack por área. Dados: SQL, PostgreSQL, Python, Pandas, NumPy, Power BI, dbt, PySpark, Delta Lake e Excel. IA aplicada: LLM com tool calling, saída estruturada (zod) e avaliação de IA. Backend: Node.js, Express, TypeScript e APIs REST. Front-end: React, Vite, Tailwind CSS, HTML, CSS e JavaScript. Infra: Docker, GitHub Actions, Git e GitHub, Render, pytest e node:test, AWS e Terraform." width="100%" />
 
 ## Projeto em destaque: Painel de Vendas Honda
 
@@ -95,7 +95,7 @@ Projeto **real**: desenvolvi o **sistema de controle de cautelas** da seção de
 
 **Dados reais e públicos** das bicicletas de Londres (TfL Santander Cycles), num pipeline em que **o dado não para de chegar**: onde as estações ficam vazias ou cheias, quando, e onde a operação deve agir primeiro.
 
-- **Coleta ao vivo:** as cerca de 800 estações a cada 15 minutos, com o dado bruto guardado intocado e um registro de cada execução
+- **Coleta ao vivo na AWS:** as cerca de 800 estações a cada 15 minutos, numa Lambda disparada pelo EventBridge que grava o bruto intocado no S3; infraestrutura toda em Terraform e o GitHub Actions entrando na AWS por OIDC, sem chave guardada
 - **Carga incremental:** 41 milhões de viagens em 148 arquivos com 6 formatos de cabeçalho, lidas pelo nome da coluna; rodar duas vezes não duplica
 - **dbt:** 17 modelos e 47 testes; demanda perdida estimada por estação e hora
 - **Todo dia:** o banco é recriado do zero no GitHub Actions e a página se atualiza sozinha, com a saúde do próprio pipeline
