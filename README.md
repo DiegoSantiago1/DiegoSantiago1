@@ -101,7 +101,7 @@ Engenharia de dados e IA primeiro. Todos têm página com os resultados e códig
 
 - **Padronização:** 16 regras em Python (situação escrita de 15 jeitos, datas como texto, duplicatas entre exportações, prontuário em branco recuperado só quando o nome é único); cada correção registrada com arquivo, aba e linha, e provada linha a linha contra a verdade da simulação
 - **Power BI:** Power Query (tipos, chave da clínica, mesclagem da fila), modelo estrela e 24 medidas DAX, todas conferidas contra o Python no motor do Power BI
-- **Looker Studio:** a mesma base, com campos calculados
+- **Looker Studio:** a mesma base, já agregada, com os campos calculados prontos
 - **Achados:** 20,3% das consultas terminam em falta (16.515 horas de prática perdidas); 27,6% na segunda de manhã; quem esperou mais de 60 dias na fila falta 41% à primeira consulta
 
 [![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/clinicas-escola-indicadores/)
