@@ -89,6 +89,25 @@ Engenharia de dados e IA primeiro. Todos têm página com os resultados e códig
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/ai-business-analyst)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
+### Clínicas-escola em dados
+
+<a href="https://diegosantiago1.github.io/clinicas-escola-indicadores/">
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/clinicas-escola-indicadores/main/site/img/powerbi_visao_geral.png" alt="Relatório no Power BI das clínicas-escola: atendimentos realizados, taxa de faltas, ocupação da agenda, espera na fila e horas de prática dos alunos, com gráfico por mês e faltas por clínica" width="100%" />
+</a>
+
+<br/><br/>
+
+**Análise de dados de saúde e educação:** um ano de atendimentos de uma rede de clínicas-escola (Odontologia, Fisioterapia, Psicologia e Nutrição) em Recife, Olinda e Jaboatão, com dados fictícios. Planilhas preenchidas à mão e exportações do sistema viram indicadores confiáveis.
+
+- **Padronização:** 16 regras em Python (situação escrita de 15 jeitos, datas como texto, duplicatas entre exportações, prontuário em branco recuperado só quando o nome é único); cada correção registrada com arquivo, aba e linha, e provada linha a linha contra a verdade da simulação
+- **Power BI:** Power Query (tipos, chave da clínica, mesclagem da fila), modelo estrela e 24 medidas DAX, todas conferidas contra o Python no motor do Power BI
+- **Looker Studio:** a mesma base, com campos calculados
+- **Achados:** 20,3% das consultas terminam em falta (16.515 horas de prática perdidas); 27,6% na segunda de manhã; quem esperou mais de 60 dias na fila falta 41% à primeira consulta
+
+[![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/clinicas-escola-indicadores/)
+[![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/clinicas-escola-indicadores)
+[![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
+
 ### Customer Analytics: Varejo Online
 
 <a href="https://diegosantiago1.github.io/customer-analytics-online-retail/">
