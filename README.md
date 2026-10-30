@@ -92,19 +92,21 @@ Engenharia de dados e IA primeiro. Todos têm página com os resultados e códig
 ### Clínicas-escola em dados
 
 <a href="https://diegosantiago1.github.io/clinicas-escola-indicadores/">
-  <img src="https://raw.githubusercontent.com/DiegoSantiago1/clinicas-escola-indicadores/main/site/img/powerbi_visao_geral.png" alt="Relatório no Power BI das clínicas-escola: atendimentos realizados, taxa de faltas, ocupação da agenda, espera na fila e horas de prática dos alunos, com gráfico por mês e faltas por clínica" width="100%" />
+  <img src="https://raw.githubusercontent.com/DiegoSantiago1/clinicas-escola-indicadores/main/site/powerbi/img/01_visao_geral.png" alt="Relatório no Power BI das clínicas-escola: faturamento, consultas realizadas, taxa de faltas e espera, com quem veio, faltou e desmarcou por mês e a taxa de faltas por clínica" width="100%" />
 </a>
 
 <br/><br/>
 
-**Análise de dados de saúde e educação:** um ano de atendimentos de uma rede de clínicas-escola (Odontologia, Fisioterapia, Psicologia e Nutrição) em Recife, Olinda e Jaboatão, com dados fictícios. Planilhas preenchidas à mão e exportações do sistema viram indicadores confiáveis.
+**Análise de dados de saúde e educação:** um ano de atendimentos de uma rede de clínicas-escola (Odontologia, Fisioterapia, Psicologia e Nutrição) em Recife, Olinda e Jaboatão, com dados fictícios. Planilhas preenchidas à mão, exportações do sistema e o tablet da recepção viram indicadores confiáveis.
 
-- **Padronização:** 16 regras em Python (situação escrita de 15 jeitos, datas como texto, duplicatas entre exportações, prontuário em branco recuperado só quando o nome é único); cada correção registrada com arquivo, aba e linha, e provada linha a linha contra a verdade da simulação
-- **Power BI:** Power Query (tipos, chave da clínica, mesclagem da fila), modelo estrela e 24 medidas DAX, todas conferidas contra o Python no motor do Power BI
+- **Padronização:** 20 regras em Python (situação escrita de 15 jeitos, datas como texto, duplicatas entre exportações, prontuário em branco recuperado só quando o nome é único); cada correção registrada com arquivo, aba e linha, e provada linha a linha contra a verdade da simulação
+- **Power BI:** 8 páginas (faturamento, faltas, motivos, espera na recepção, agenda e fila, alunos, qualidade), Power Query, modelo estrela e 36 medidas DAX, todas conferidas contra o Python no motor do Power BI
+- **Painel animado:** faturamento, motivos de falta e espera na recepção, com filtro por unidade e um assistente de perguntas que responde com os dados
 - **Looker Studio:** a mesma base, já agregada, com os campos calculados prontos
-- **Achados:** 20,3% das consultas terminam em falta (16.515 horas de prática perdidas); 27,6% na segunda de manhã; quem esperou mais de 60 dias na fila falta 41% à primeira consulta
+- **Achados:** 20,3% das consultas terminam em falta (16.515 horas de prática perdidas); 27,6% na segunda de manhã; quem esperou mais de 60 dias na fila falta 41% à primeira consulta; as faltas de quem pagaria custaram R$ 240 mil
 
 [![Abrir o projeto](https://img.shields.io/badge/%E2%96%B6%20Abrir%20o%20projeto-EA580C?style=for-the-badge)](https://diegosantiago1.github.io/clinicas-escola-indicadores/)
+[![Ver o Power BI](https://img.shields.io/badge/Ver%20o%20Power%20BI-2B2D33?style=for-the-badge&logo=powerbi&logoColor=F2C811)](https://diegosantiago1.github.io/clinicas-escola-indicadores/powerbi/)
 [![Ver o código](https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-1F2937?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoSantiago1/clinicas-escola-indicadores)
 [![Ver no portfólio](https://img.shields.io/badge/Ver%20no%20portf%C3%B3lio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegosantiago1.github.io/Portifolio/#projetos)
 
